@@ -7,7 +7,7 @@ here is how to set this up (hopefully)
 - download godot mono from [here](https://godotengine.org/download/windows)
 - dont use github desktop for this setup (it might break something idk, but if you really want to after you set it up it should be fine)
 - in cmd, `cd` to the dir you want to have the repository be in (its basically the same as `cd` on linux)
-- run the following commands: `git clone https://github.com/Team-Prism/ranodm.git`, `code .`
+- run the following commands: `git clone --recurse-submodules https://github.com/Team-Prism/ranodm.git`, `code .`
 - if `code .` doesnt open vscode just open the `ranodm` folder with vscode manually
 - download the [Haxe](https://marketplace.visualstudio.com/items?itemName=nadako.vshaxe), [C# Tools for Godot](https://marketplace.visualstudio.com/items?itemName=neikeq.godot-csharp-vscode), [godot-tools](https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools), and [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) extensions
 - open the mono build of godot and open the `project.godot` file in the repository folder.
