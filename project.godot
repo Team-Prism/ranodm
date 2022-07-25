@@ -58,7 +58,7 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/haxe/plugin.cfg" )
+enabled=PoolStringArray(  )
 
 [haxe]
 

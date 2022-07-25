@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://objects/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://assets/tileset.tres" type="TileSet" id=3]
 
 [node name="BlueArea" type="Node2D"]
 
@@ -23,3 +24,9 @@ texture = ExtResource( 2 )
 [node name="Icon4" type="Sprite" parent="."]
 position = Vector2( 184, 274 )
 texture = ExtResource( 2 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 3 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 327675, 0, 1, 327676, 0, 2, 327677, 0, 2, 327678, 0, 3, 393210, 0, 1, 393211, 0, 65538, 393212, 0, 65538, 393213, 0, 65538, 393214, 0, 65539, 458746, 0, 65537, 458747, 0, 65538, 458748, 0, 65538, 458749, 0, 65538, 458750, 0, 65539, 524282, 0, 131073, 524283, 0, 131074, 524284, 0, 65538, 524285, 0, 65538, 524286, 0, 131075, 589820, 0, 131073, 589821, 0, 131075 )
